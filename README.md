@@ -108,6 +108,6 @@ Destroy the resources:
 terraform destroy
 ```
 ### key Points
-This project showcases the use of Terraform to manage infrastructure across multiple environments.
-The S3 backend configuration ensures that the Terraform state is stored securely and consistently.
-The modular structure allows for reusability and better management of infrastructure as code.
+1. This project showcases the use of Terraform to manage infrastructure across multiple environments.
+2. The S3 backend configuration ensures that the Terraform state is stored securely and consistently.
+3. The modular structure allows for reusability and better management of infrastructure as code.
