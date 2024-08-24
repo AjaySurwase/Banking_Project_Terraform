@@ -27,6 +27,8 @@ terraform {
     dynamodb_table = "terraform-locks"
   }
 }
+
+
 ## Step 2: Initialize, Plan, and Apply the Terraform Configuration
 
 ### Environment: Dev
