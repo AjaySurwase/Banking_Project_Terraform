@@ -8,7 +8,8 @@ This project demonstrates the use of Terraform to manage and deploy infrastructu
 
 The repository is organized into the following structure:
 
-![image](https://github.com/user-attachments/assets/04577fcc-2426-47b4-b064-6c721e66f75b)
+![image](https://github.com/user-attachments/assets/636086e8-c660-4421-9d28-4e4be75776a8)
+
 
 
 ## Step 1: Terraform Backend Configuration
