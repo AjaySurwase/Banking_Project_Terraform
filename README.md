@@ -21,10 +21,9 @@ Example configuration:
 ```hcl
 terraform {
   backend "s3" {
-    bucket         = "t2s-bank-terraform-state"
-    key            = "dev/terraform.tfstate"
-    region         = "us-east-1"
-    dynamodb_table = "terraform-locks"
+    bucket = "hcb-bank-terraform-state"
+    key    = "global/s3/terraform.tfstate"
+    region = "us-east-1"
   }
 }
 ```  
@@ -34,7 +33,7 @@ terraform {
 ### Environment: Dev
 Navigate to the Dev environment directory:
 ```bash
-cd t2s-bank/envs/dev
+cd Banking_Project_Terraform/Envs/dev
 ```
 ### Initialize Terraform:
 ```bash
@@ -55,7 +54,7 @@ terraform apply
 ### Navigate to the Stage environment directory:
 
 ```bash
-cd t2s-bank/envs/stage
+cd Banking_Project_Terraform/Envs/stage
 ```
 ### Initialize Terraform:
 ```bash
@@ -73,7 +72,7 @@ terraform apply
 Navigate to the Prod environment directory:
 
 ```bash
-cd t2s-bank/envs/prod
+cd Banking_Project_Terraform/Envs/prod
 ```
 ### Initialize Terraform:
 ```bash
@@ -95,13 +94,13 @@ When you no longer need the resources, you can destroy them to avoid unnecessary
 ### For Each Environment
 Respectively, navigate to the environment directory:
 ```bash
-cd t2s-bank/envs/dev
+cd Banking_Project_Terraform/Envs/dev
 ```
 ```bash
-cd t2s-bank/envs/stage
+cd Banking_Project_Terraform/Envs/stage
 ```
 ```bash
-cd t2s-bank/envs/prod
+cd Banking_Project_Terraform/Envs/prod
 ```
 Destroy the resources:
 ```bash
