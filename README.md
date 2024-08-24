@@ -27,7 +27,7 @@ terraform {
     dynamodb_table = "terraform-locks"
   }
 }
-
+```  
 
 ## Step 2: Initialize, Plan, and Apply the Terraform Configuration
 
@@ -36,6 +36,7 @@ Navigate to the Dev environment directory:
 
 ```bash
 cd t2s-bank/envs/dev
+```
 
 ###Initialize Terraform:
 
