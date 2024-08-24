@@ -44,68 +44,70 @@ terraform init
 
 ```bash
 terraform plan
-
-###Apply the configuration:
+```
+### Apply the configuration:
 
 ```bash
 terraform apply
+```
+### Environment: Stage
 
-###Environment: Stage
-
-###Navigate to the Stage environment directory:
+### Navigate to the Stage environment directory:
 
 ```bash
 cd t2s-bank/envs/stage
-
-###Initialize Terraform:
+```
+### Initialize Terraform:
 ```bash
 terraform init
-
-###Create an execution plan:
+```
+### Create an execution plan:
 ```bash
 terraform plan
-
-###Apply the configuration:
+```
+### Apply the configuration:
 ```bash
 terraform apply
-
-###Environment: Prod
+```
+### Environment: Prod
 Navigate to the Prod environment directory:
 
 ```bash
 cd t2s-bank/envs/prod
-
-###Initialize Terraform:
+```
+### Initialize Terraform:
 ```bash
 terraform init
-
-###Create an execution plan:
+```
+### Create an execution plan:
 
 ```bash
 terraform plan
+```
 
-###Apply the configuration:
-
+### Apply the configuration:
 ```bash
 terraform apply
-
-##Step 3: Clean Up
+```
+## Step 3: Clean Up
 When you no longer need the resources, you can destroy them to avoid unnecessary costs.
 
-###For Each Environment
+### For Each Environment
 Respectively, navigate to the environment directory:
 ```bash
 cd t2s-bank/envs/dev
+```
 ```bash
 cd t2s-bank/envs/stage
+```
 ```bash
 cd t2s-bank/envs/prod
-
+```
 Destroy the resources:
 ```bash
 terraform destroy
-
-###Key Points
+```
+### key Points
 This project showcases the use of Terraform to manage infrastructure across multiple environments.
 The S3 backend configuration ensures that the Terraform state is stored securely and consistently.
 The modular structure allows for reusability and better management of infrastructure as code.
