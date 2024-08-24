@@ -33,10 +33,9 @@ terraform {
 
 ### Environment: Dev
 Navigate to the Dev environment directory:
-
 ```bash
 cd t2s-bank/envs/dev
-
+```
 ###Initialize Terraform:
 terraform init
 
