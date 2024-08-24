@@ -38,8 +38,6 @@ Navigate to the Dev environment directory:
 cd t2s-bank/envs/dev
 
 ###Initialize Terraform:
-
-```bash
 terraform init
 
 ###Create an execution plan:
